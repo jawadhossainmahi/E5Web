@@ -1,0 +1,64 @@
+body {
+    background-color:#EEE;
+
+}
+
+#content {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:30px;
+    box-sizing:border-box;
+    background-color:white;
+    box-shadow: 0px 0px 3px #555;
+    width:80%;
+}
+
+
+.profile-img {
+    max-width: 150px;
+    border-radius: 50%;
+  }
+
+
+					
+  .profile-img {
+      max-width: 150px;
+      border-radius: 50%;
+  }
+  .affichage{
+      margin-top: 50px;
+  }
+  
+
+
+
+
+.custom-dropdown {
+    right: auto; /* Réinitialiser la position par défaut à droite */
+    left: 50%;   /* Déplacer la dropdown vers la gauche de 50% de la largeur du parent */
+    transform: translateX(-50%); /* Ajuster pour centrer la dropdown */
+}
+
+#myCarousel {
+    max-width: 800px; /* Définir la largeur maximale du carrousel */
+    margin: auto; /* Centrer le carrousel */
+    min-width: 300px; /* Définir la largeur minimale du carrousel */
+  }
+  .carousel-inner {
+    width: 100%;
+    overflow: hidden;
+    min-height: 400px; /* Définir la hauteur minimale du carousel-inner */
+  }
+  .carousel-item {
+    text-align: center; /* Centrer le contenu */
+  }
+  .carousel-item img {
+    max-width: 100%; /* Les images ne dépasseront pas la largeur du conteneur parent */
+    height: auto; /* Les images conserveront leur ratio d'aspect */
+    object-fit: cover; /* Remplit le conteneur tout en conservant l'aspect */
+    min-height: 100%; /* Les images auront au moins une hauteur de 100% par rapport au conteneur parent */
+  }
+  
+
